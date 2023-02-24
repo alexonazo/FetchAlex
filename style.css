@@ -45,7 +45,18 @@
 
   @media only screen and (max-width: 600px) {
     header{
-      width: 70%;
+      width: 80%;
+      font-size: medium;
+    }
+
+    #movie{
+      width: 100%;
+    }
+
+    #movie img{
+      width: 150px;
+      height: 200px;
+      margin-bottom: 30px;
     }
   }
   

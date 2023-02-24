@@ -67,10 +67,11 @@ function getYt(title) {
 iframe.src = `https://www.youtube.com/embed/${videoId}`;
 iframe.allow = 'autoplay; encrypted-media';
 iframe.allowfullscreen = true;
-iframe.style.width = '400px';
+iframe.style.width = '100%';
 iframe.setAttribute('frameborder', '0');
 iframe.setAttribute('allowfullscreen', '');
 iframe.setAttribute('allow', 'accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture');
+iframe.id = 'trailer';
     const movieDiv = document.getElementById('movie');
     movieDiv.appendChild(iframe);
     $(iframe).hide().slideDown(1500);
