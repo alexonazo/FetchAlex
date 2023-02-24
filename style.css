@@ -1,0 +1,54 @@
+
+  *{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  }
+
+  header{
+    width: 450px;
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+    border-radius: 30px;
+    padding: 10px;
+  }
+
+  header:hover{
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+    transition: 1s;
+  }
+
+  #movie img{
+    width: 200px;
+    height: 300px;
+    margin-bottom: 30px;
+  }  
+
+  .boton-container button {
+    font-size: 1.4rem; /* Aumenta el tamaño de fuente */
+    background-color: hsl(0, 0%, 42%); /* Cambia el color de fondo */
+    color: #fff; /* Cambia el color del texto */
+    padding: 20px 50px; /* Añade un relleno interno */
+    border-radius: 50px; /* Agrega bordes redondeados */
+    transition: all 0.3s ease-in-out; /* Agrega una transición suave */
+  }
+  
+  .boton-container button:hover {
+    border: 1px solid black;
+    background-color: #f4f4f4; /* Cambia el color de fondo al pasar el mouse */
+    color: #333; /* Cambia el color del texto al pasar el mouse */
+    transform: translateY(-5px); /* Mueve ligeramente el botón hacia arriba */
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+  }
+
+  #boton2{
+    box-shadow: none;
+    outline: none;
+  }
+
+
+  
+ 
+
+  
+
+
+
+ 
